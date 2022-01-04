@@ -1,8 +1,8 @@
 version: '3'
 services:
-stradaverse:
-build: ./test
+   stradaverse:
+   build: ./test
 volumes:
-- ./test:/app
+   - ./test:/app
 ports:
- -5001:80
+   -5001:80
