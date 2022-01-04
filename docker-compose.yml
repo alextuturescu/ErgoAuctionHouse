@@ -5,4 +5,4 @@ services:
 volumes:
    - ./test:/app
 ports:
-   -5001:80
+   - 5001:80
